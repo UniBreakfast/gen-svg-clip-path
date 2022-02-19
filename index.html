@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- <script src="app.js" type="module"></script> -->
+
+  <title>Generate SVG clip path</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="thumbnail">
+      <div id="svgHolder"></div>
+    </div>
+
+    <div id="controls">
+      <div class="row">
+        <input type="checkbox" id="box0" checked>
+        <label>
+          Block size:
+          <input type="number" id="sizeInp" value="400">
+        </label>
+        <input type="checkbox" id="box1" checked>
+      </div>
+
+      <div class="row">
+        <label>
+          Cut size:
+          <input type="number" id="cutInp" value="70">
+        </label>
+      </div>
+
+      <div class="row">
+        <input type="checkbox" id="box3">
+        <label>
+          Border radius:
+          <input type="number" id="radInp" value="20">
+        </label>
+        <input type="checkbox" id="box2" checked>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

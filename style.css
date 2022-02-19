@@ -1,0 +1,27 @@
+#thumbnail {
+  margin: 40px;
+  background: linear-gradient(0.375turn, #dfd, #050);
+  clip-path: url(#cutSquare);
+  height: 500px;
+}
+
+#controls {
+  margin: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+  justify-content: center;
+}
+
+input {
+  text-align: center;
+  width: 70px;
+}
